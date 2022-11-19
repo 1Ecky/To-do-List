@@ -1,0 +1,54 @@
+body{
+  background-color: #3a3939;
+}
+
+h1{
+  text-align: center;
+  color: rgb(88, 86, 86);
+}
+
+.App{
+  text-align: center;
+  background-color: rgb(145, 167, 167);
+  min-height: 600px;
+  width: 400px;
+  margin:50px auto;
+  border-radius: 5px;
+}
+
+input{
+  background-color: rgb(71, 76, 82);
+  border: 1;
+  width: 200px;
+  height: 50px;
+  padding: auto;
+  margin: 20px;
+  color: white;
+  border-radius: 10px;
+  font-size: 17px;
+}
+
+input::placeholder{
+  color: black;
+}
+
+input{
+  color: #dbd7d7;
+}
+
+input:focus{
+outline: none;
+}
+
+button{
+  height: 50px;
+  width: 80px;
+  border-radius: 5px;
+  bottom: 1px;
+  background-color: rgb(75, 184, 61);
+  cursor: pointer;
+  color: #000;
+}
+create-btn{
+  color: rgb(212, 33, 33);
+}
